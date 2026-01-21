@@ -48,3 +48,10 @@ main article p{
   text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
 }
 
+.smth h2,
+.smth p,
+.smth li,
+.smth em,
+.smth i {
+  color: white;
+}
