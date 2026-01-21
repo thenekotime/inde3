@@ -37,7 +37,7 @@ main article p{
 	height:620px;
 	color: white;
 	padding: 20px;
-	background-color: rgba(0, 0, 0, 0.4); 
+	background-color: rgba(0, 0, 0, 0.8); 
   background-blend-mode: overlay; 
 .smth h2,
 .smth p,
@@ -45,4 +45,5 @@ main article p{
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
 }
+
 
