@@ -1,0 +1,42 @@
+#main-header nav a {
+  display: inline-block;      /* превращает ссылку в мини-блок */
+  background-color: #B22222;  /* цвет блока, например Firebrick */
+  color: white;               /* цвет текста */
+  padding: 5px 10px;          /* отступы внутри блока */
+  margin-right: 5px;          /* расстояние между ссылками */
+  text-decoration: none;       /* убираем подчеркивание */
+  border-radius: 5px;          /* закругленные углы */
+  transition: 0.4s;            /* плавный эффект при наведении */
+}
+
+#main-header nav a:hover {
+  background-color: #8B0000;   /* чуть темнее при наведении */
+}
+
+p a {
+  display: inline-block;      /* превращает ссылку в блок, чтобы можно было ставить фон и паддинг */
+  background-color: #B22222;  /* цвет фона блока */
+  color: white;               /* цвет текста */
+  padding: 5px 10px;          /* внутренние отступы */
+  text-decoration: none;       /* убираем подчеркивание */
+  border-radius: 5px;          /* скругляем углы */
+  transition: 0.3s;            /* плавный эффект при наведении */
+}
+p a:hover {
+  background-color: #8B0000;   /* цвет фона при наведении */
+}
+main article p{
+	font-size:16px;
+	background-image
+}
+.smth{
+	background-image:url('photo.jpeg');
+	background-size: cover;
+	background-position: center;
+	width:1280px
+	height:620px
+	color: white;
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.4); 
+  background-blend-mode: overlay; 
+}
