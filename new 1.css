@@ -39,8 +39,6 @@ main article p{
 	padding: 20px;
 	background-color: rgba(0, 0, 0, 0.4); 
   background-blend-mode: overlay; 
-
-}
 .smth h2,
 .smth p,
 .smth li {
@@ -48,10 +46,3 @@ main article p{
   text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
 }
 
-.smth h2,
-.smth p,
-.smth li,
-.smth em,
-.smth i {
-  color: white;
-}
