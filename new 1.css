@@ -1,29 +1,29 @@
 #main-header nav a {
-  display: inline-block;      /* превращает ссылку в мини-блок */
-  background-color: #B22222;  /* цвет блока, например Firebrick */
-  color: white;               /* цвет текста */
-  padding: 5px 10px;          /* отступы внутри блока */
-  margin-right: 5px;          /* расстояние между ссылками */
-  text-decoration: none;       /* убираем подчеркивание */
-  border-radius: 5px;          /* закругленные углы */
-  transition: 0.4s;            /* плавный эффект при наведении */
+  display: inline-block;      
+  background-color: #B22222;  
+  color: white;               
+  padding: 5px 10px;          
+  margin-right: 5px;          
+  text-decoration: none;      
+  border-radius: 5px;         
+  transition: 0.4s;           
 }
 
 #main-header nav a:hover {
-  background-color: #8B0000;   /* чуть темнее при наведении */
+  background-color: #8B0000;   
 }
 
 p a {
-  display: inline-block;      /* превращает ссылку в блок, чтобы можно было ставить фон и паддинг */
-  background-color: #B22222;  /* цвет фона блока */
-  color: white;               /* цвет текста */
-  padding: 5px 10px;          /* внутренние отступы */
-  text-decoration: none;       /* убираем подчеркивание */
-  border-radius: 5px;          /* скругляем углы */
-  transition: 0.3s;            /* плавный эффект при наведении */
+  display: inline-block;      
+  background-color: #B22222;  
+  color: white;               
+  padding: 5px 10px;         
+  text-decoration: none;       
+  border-radius: 5px;          
+  transition: 0.3s;            
 }
 p a:hover {
-  background-color: #8B0000;   /* цвет фона при наведении */
+  background-color: #8B0000;   
 }
 main article p{
 	font-size:16px;
@@ -46,9 +46,11 @@ main article p{
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
 }
-table{
-	margin: 0 auto;
+.lolol {
+  display: flex;
+  justify-content: center;
 }
+
 
 
 
