@@ -45,6 +45,9 @@ main article p{
 .smth li {
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+.lolol table{
+	display: flex;
+	justify-content: center;
 }
 .lolol table{
   width: 600px;
@@ -61,7 +64,7 @@ main article p{
   padding: 12px 20px;
 }
 .lolol th, .lolol td{
- background-color: 5a0000;
+ background-color: #5a0000;
  font-size: 1.1rem;
 }
 .lolol tr:nth-child(even) {
@@ -70,6 +73,7 @@ main article p{
 .lolol tr:hover {
   background-color: rgba(255,255,255,0.15); 
 }
+
 
 
 
