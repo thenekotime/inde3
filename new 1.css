@@ -46,10 +46,26 @@ main article p{
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
 }
- .lolol {
-  display: flex;
-  justify-content: center;
+.lolol table{
+  width: 600px;
+  border-collapse :collapse;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #8b0000ce;
+  color: white;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.lolol th, .lolol td{
+  padding: 12px 20px;
+}
+.lolol th, .lolol td{
+ background-color: 5a0000;
+ font-size: 1.1rem;
+}
+
+
 
 
 
