@@ -46,6 +46,21 @@ p a:hover {
 	display: flex;
 	justify-content: center;
 }
+.lolol thead {
+  background: linear-gradient(
+    90deg,
+    #ff003c,
+    #ff1f5a,
+    #ff003c;
+}
+.lolol th {
+  color: #fff;
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+  text-shadow:
+    0 0 6px rgba(255, 0, 60, 0.8),
+    0 0 12px rgba(255, 0, 60, 0.6);
+}
 .lolol table{
   width: 600px;
   border-collapse :collapse;
@@ -62,10 +77,14 @@ p a:hover {
 }
 
 .lolol tr:nth-child(even) {
-  background-color: rgba(255,255,255,0.05);
+  background-color: #4a0808;
 }
-.lolol tr:hover {
-  background-color: rgba(255,255,255,0.15); 
+.lolol tr:hover td {
+background-color: #7a0f0f;
+box-shadow: inset 0 0 10px rgba(255, 60, 60, 0.3);
+}
+.lolol thead tr {
+  border-bottom: 2px solid rgba(255, 60, 60, 0.6);
 }
 
 
