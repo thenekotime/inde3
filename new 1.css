@@ -25,10 +25,6 @@ p a {
 p a:hover {
   background-color: #8B0000;   
 }
-main article p{
-	font-size:16px;
-	background-image
-}
 .smth{
 	background-image:url('uiiu.jpeg');
 	background-size: cover;
@@ -38,7 +34,8 @@ main article p{
 	color: white;
 	padding: 20px;
 	background-color: rgba(0, 0, 0, 0.8); 
-  background-blend-mode: overlay; 
+  background-blend-mode: overlay;
+}
 .smth h2,
 .smth p,
 .smth li {
@@ -63,16 +60,14 @@ main article p{
 .lolol th, .lolol td{
   padding: 12px 20px;
 }
-.lolol th, .lolol td{
- background-color: #5a0000;
- font-size: 1.1rem;
-}
+
 .lolol tr:nth-child(even) {
   background-color: rgba(255,255,255,0.05);
 }
 .lolol tr:hover {
   background-color: rgba(255,255,255,0.15); 
 }
+
 
 
 
