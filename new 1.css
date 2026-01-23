@@ -37,7 +37,7 @@ body{
     #8B0000
     #FF1F5A, 
     #DC143C,
-    #8B0000
+    #FF0000
 	);
 }
 .lolol th {
@@ -64,7 +64,7 @@ body{
 }
 
 .lolol tr:nth-child(even) td {
-  background-color: #4a0808;
+  background-color: #CD5C5C;
 }
 .lolol tr:hover td {
 background-color:#5c0000;
@@ -74,9 +74,10 @@ box-shadow: inset 0 0 10px rgba(255, 60, 60, 0.3);
   border-bottom: 2px solid rgba(255, 60, 60, 0.6);
 }
 .lolol tr td{
-	background-color:#4a0000;
+	background-color:#CD5C5C;
 	border-bottom: 1px solid #000;
 }
+
 
 
 
