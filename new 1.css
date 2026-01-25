@@ -83,13 +83,14 @@ box-shadow: inset 0 0 12px rgba(255, 80, 120, 0.35);
 }
 .lolol tr td{
 	background-color:#CD5C5C;
-	border-bottom: 1px solid #000;
+	1px solid rgba(255,255,255,0.1);
 }
 
 h1 {
   margin: 0 auto;
   width: fit-content;
 }
+
 
 
 
