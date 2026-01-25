@@ -35,6 +35,7 @@ p a{
 	align-items: stretch;
 	padding: 40px 0;
 	width:100%;
+	 border-radius: 5px;  
 }
 .lolol thead th {
   background: -webkit-linear-gradient(90deg, #000000,#731212,#8a0303);
@@ -89,6 +90,7 @@ h1 {
   margin: 0 auto;
   width: fit-content;
 }
+
 
 
 
