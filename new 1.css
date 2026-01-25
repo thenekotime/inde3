@@ -1,12 +1,12 @@
 #main-header nav a,
 p a{
   display: inline-block;      
-  padding: 5px 10px;
-  text-decoration: none;
-  border-radius:5px;
-  transition:0.4s;
-	color:white;
-	backgeound-color: #B22222;
+  background-color: #B22222;  
+  color: white;               
+  padding: 5px 10px;                    
+  text-decoration: none;      
+  border-radius: 5px;         
+  transition: 0.4s;
 }
 ______________________________________
 #main-header nav a:hover, p a:hover {
@@ -20,7 +20,7 @@ ______________________________________
 	background-position: center; 
 	color: white; 
 	padding: 0; 
-	background-color: rgba(0, 0, 0, 0.4); 
+	background-color: rgba(0, 0, 0, 0.8); 
 	background-repeat: no-repeat; 
 	background-blend-mode: overlay; 
 }
@@ -30,8 +30,6 @@ ________________________________________
 .smth li {
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
-	margin: 0 0 10px 0;
-	line-height:1.4;
 }
 _________________________________________
 .lolol {
@@ -40,6 +38,8 @@ _________________________________________
 	align-items: stretch;
 	padding: 40px 0;
 	width:100%;
+	overflow: hidden;
+	border-radius: 14px;
 }
 .lolol thead th {
   background: linear-gradient(
@@ -48,11 +48,6 @@ _________________________________________
     #8B0000,
     #FF1F5A 
 	);
-	padding:16px 20px;
-	color:#fff;
-	letter-spacing:0.5px;
-	text-shadow: 0 0 6px rgba(255,0,60,0.8),0 0 12px
-	rgba(255,60,100,0.5);
 }
 .lolol th {
 padding: 16px 20px;
@@ -68,10 +63,8 @@ padding: 16px 20px;
 width: 100%;
 min-width: 640px;
 max-width: 900px;
-border-collapse: collapse;
-overflow: hidden;
-border-radius: 14px;
-box-shadow: 0 10px 30px rgba(0,0,0,0.45)
+border-collapse: separate;
+box-shadow: 
 0 10px 30px rgba(0, 0, 0, 0.45),
 color: white;
 border-spacing: 0;
@@ -80,12 +73,6 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 background: rgba(20, 0, 0, 0.85);
 backdrop-filter: blur(6px);
 }
-.lolol td {
-  padding: 12px 20px;
-  background-color: #CD5C5C;
-  border-bottom: 1px solid rgba(255,255,255,0.1);
-  transition: background 0.3s;
-	
 .lolol th, .lolol td{
   padding: 12px 20px;
 }
@@ -106,11 +93,8 @@ background-color:rgba(255, 40, 80, 0.35);
 
 h1 {
   margin: 0 auto;
-text-align: center;
   width: fit-content;
 }
-
-
 
 
 
