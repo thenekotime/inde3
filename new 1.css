@@ -9,6 +9,8 @@ p a{
   transition: 0.4s;
   display: flex;
   justify-content: center;
+flex-wrap: nowrap;
+  gap: 10px;
 }
 
 #main-header nav a:hover, p a:hover {
@@ -42,8 +44,6 @@ p a{
 	#5c0000,
     #8B0000
     #FF1F5A, 
-     #DC143C,
-    #FF0000
 	);
 }
 .lolol th {
@@ -92,6 +92,7 @@ h1 {
   margin: 0 auto;
   width: fit-content;
 }
+
 
 
 
