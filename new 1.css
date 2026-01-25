@@ -8,10 +8,11 @@ p a{
   border-radius: 5px;         
   transition: 0.4s;
 }
-
+______________________________________
 #main-header nav a:hover, p a:hover {
   background-color: #8B0000;   
 }
+______________________________________
 .smth{ 
 	margin:0; 
 	background-image:url('uiiu.jpeg'); 
@@ -23,18 +24,22 @@ p a{
 	background-repeat: no-repeat; 
 	background-blend-mode: overlay; 
 }
+________________________________________
 .smth h2,
 .smth p,
 .smth li {
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
 }
+_________________________________________
 .lolol {
 	display: flex;
 	justify-content: center;
 	align-items: stretch;
 	padding: 40px 0;
 	width:100%;
+	overflow: hidden;
+	border-radius: 14px;
 }
 .lolol thead th {
   background: linear-gradient(
@@ -55,21 +60,18 @@ padding: 16px 20px;
     0 0 12px rgba(255, 60, 100, 0.5);
 }
 .lolol table{
-  width: 100%;
-	min-width: 640px;
-	max-width: 900px;
-  border-collapse: separate;
-  box-shadow: 
-	0 10px 30px rgba(0, 0, 0, 0.45),
-  border-radius: 14px;
-  overflow: hidden;
-  color: white;
-	border-spacing: 0;
-	overflow:hidden;
-  text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+width: 100%;
+min-width: 640px;
+max-width: 900px;
+border-collapse: separate;
+box-shadow: 
+0 10px 30px rgba(0, 0, 0, 0.45),
+color: white;
+border-spacing: 0;
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 background: rgba(20, 0, 0, 0.85);
-  backdrop-filter: blur(6px);
+backdrop-filter: blur(6px);
 }
 .lolol th, .lolol td{
   padding: 12px 20px;
@@ -93,6 +95,7 @@ h1 {
   margin: 0 auto;
   width: fit-content;
 }
+
 
 
 
