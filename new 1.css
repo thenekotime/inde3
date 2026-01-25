@@ -32,45 +32,50 @@ p a{
 .lolol {
 	display: flex;
 	justify-content: center;
+	padding: 40px 0;
 }
 .lolol thead {
   background: linear-gradient(
     90deg,
+	#5c0000,
     #8B0000
     #FF1F5A, 
-    #DC143C,
-    #FF0000
+    #8b0000
 	);
 }
 .lolol th {
+padding: 16px 20px;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   letter-spacing: 0.5px;
   text-shadow:
     0 0 6px rgba(255, 0, 60, 0.8),
-    0 0 12px rgba(255, 0, 60, 0.6);
+    0 0 12px rgba(255, 60, 100, 0.5);
 }
 .lolol table{
-  width: 600px;
+  width: 640px;
   border-collapse :collapse;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-  border-radius: 10px;
+  box-shadow: 
+	0 10px 30px rgba(0, 0, 0, 0.6),
+    0 0 25px rgba(255, 30, 70, 0.15);
+  border-radius: 14px;
   overflow: hidden;
-  background-color: #8B0000;
   color: white;
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background: rgba(20, 0, 0, 0.85);
+  backdrop-filter: blur(6px);
 }
 .lolol th, .lolol td{
   padding: 12px 20px;
 }
 
 .lolol tr:nth-child(even) td {
-  background-color: #CD5C5C;
+  background-color: rgba(160, 20, 40, 0.55);
 }
 .lolol tr:hover td {
-background-color:#5c0000;
-box-shadow: inset 0 0 10px rgba(255, 60, 60, 0.3);
+background-color:(255, 40, 80, 0.35);
+box-shadow: inset 0 0 12px rgba(255, 80, 120, 0.35);
 }
 .lolol thead tr {
   border-bottom: 2px solid rgba(255, 60, 60, 0.6);
@@ -79,6 +84,7 @@ box-shadow: inset 0 0 10px rgba(255, 60, 60, 0.3);
 	background-color:#CD5C5C;
 	border-bottom: 1px solid #000;
 }
+
 
 
 
