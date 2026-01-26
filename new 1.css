@@ -39,6 +39,7 @@ background: linear-gradient(90deg, #000000,#731212,#8a0303);
 }
 .lolol th {
 padding: 16px 20px;
+	border-radius: 14px;
   color: #fff;
   font-size: 1.2rem;
   letter-spacing: 0.5px;
@@ -50,8 +51,7 @@ padding: 16px 20px;
 .lolol table{
 width: 600px;
 border-collapse: seperate;
-box-shadow: 
-0 10px 30px rgba(0, 0, 0, 0.45),
+box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
 border-radius: 14px;
 overflow: hidden;
 color: white;
@@ -67,6 +67,7 @@ h1 {
   margin: 0 auto;
   width: fit-content;
 }
+
 
 
 
