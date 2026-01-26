@@ -62,28 +62,13 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 background: rgba(20, 0, 0, 0.85);
 0bg5tg hyhyy8backdrop-filter: blur(6px);
 }
-.lolol th, .lolol td{
-  padding: 12px 20px;
-}
 
-.lolol tbody tr:nth-child(even) td{
-  background-color:rgba(255, 40, 80, 0.35);
-}
-.lolol tr:hover td {
-background-color:rgba(255, 40, 80, 0.35);
-}
-.lolol thead tr {
-  border-bottom: 2px solid rgba(255, 60, 60, 0.6);
-}
-.lolol tr td{
-	
-	border-bottom:1px solid rgba(255,255,255,0.1);
-}
 
 h1 {
   margin: 0 auto;
   width: fit-content;
 }
+
 
 
 
