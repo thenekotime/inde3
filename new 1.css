@@ -48,20 +48,19 @@ padding: 16px 20px;
     0 0 12px rgba(255, 0, 60, 0.5);
 }
 .lolol table{
-  width: 600px;
-	
-  border-collapse: collapse;
-  box-shadow: 
-	0 10px 30px rgba(0, 0, 0, 0.45),
-  border-radius: 14px;
-  overflow: hidden;
-  color: white;
-	border-spacing: 0;
-	overflow:hidden;
-  text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+width: 600px;
+border-collapse: seperate;
+box-shadow: 
+0 10px 30px rgba(0, 0, 0, 0.45),
+border-radius: 14px;
+overflow: hidden;
+color: white;
+border-spacing: 0;
+overflow:hidden;
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 background: rgba(20, 0, 0, 0.85);
-  backdrop-filter: blur(6px);
+0bg5tg hyhyy8backdrop-filter: blur(6px);
 }
 .lolol th, .lolol td{
   padding: 12px 20px;
@@ -77,7 +76,7 @@ background-color:rgba(255, 40, 80, 0.35);
   border-bottom: 2px solid rgba(255, 60, 60, 0.6);
 }
 .lolol tr td{
-	background-color:#CD5C5C;
+	
 	border-bottom:1px solid rgba(255,255,255,0.1);
 }
 
@@ -85,6 +84,7 @@ h1 {
   margin: 0 auto;
   width: fit-content;
 }
+
 
 
 
