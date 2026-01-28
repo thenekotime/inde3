@@ -39,18 +39,17 @@ background: linear-gradient(90deg, #000000,#731212,#8a0303);
 }
 .lolol th {
 padding: 16px 20px;
-	border-radius: 14px;
-  color: #fff;
-  font-size: 1.2rem;
-  letter-spacing: 0.5px;
-	min-width: 80px; 
-  text-shadow:
-    0 0 6px rgba(255, 0, 60, 0.8),
-    0 0 12px rgba(255, 0, 60, 0.5);
+color: #fff;
+font-size: 1.2rem;
+letter-spacing: 0.5px;
+min-width: 80px; 
+text-shadow:
+0 0 6px rgba(255, 0, 60, 0.8),
+0 0 12px rgba(255, 0, 60, 0.5);
 }
 .lolol table{
 width: 600px;
-border-collapse: seperate;
+border-collapse: separate;
 box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
 border-radius: 14px;
 overflow: hidden;
@@ -62,11 +61,15 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 backdrop-filter: blur(6px);
 }
 
+.lolol th{
+padding: 16px 20px;
+
 
 h1 {
   margin: 0 auto;
   width: fit-content;
 }
+
 
 
 
