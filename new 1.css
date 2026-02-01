@@ -8,13 +8,6 @@ p a{
   border-radius: 5px;         
   transition: 0.4s;
 }
-#main-header {
-  min-height: 350px;
-  background-image: url('uiiu.jpeg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
 
 #main-header nav a:hover, p a:hover {
   background-color: #8B0000;   
@@ -102,6 +95,7 @@ h1 {
 #skills{
 	flex:0 0 240px;
 }
+
 
 
 
