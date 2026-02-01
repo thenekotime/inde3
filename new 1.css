@@ -81,6 +81,20 @@ h1 {
   width: fit-content;
 }
 
+.about-skills{
+	display: flex;
+	gap:40px;
+	max-width:1200px;
+	margin:60px auto;
+	align-items:flex-start;
+}
+
+#about{
+	flex: 1;
+}
+#skills{
+	flex:0 0 240px;
+}
 
 
 
