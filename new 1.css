@@ -61,14 +61,26 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 backdrop-filter: blur(6px);
 }
 
+.lolol th, td{
+	padding: 18px 28px;
+	min-width: 120px;
+	background-color:#5b0f0f;
+	color:#fff;
+	text-align:center;
+}
 .lolol th{
-padding: 16px 20px;
+	background-color: #4a0c0c;
+}
+.lolol td{
+	background-color:#651212;
+}
 
 
 h1 {
   margin: 0 auto;
   width: fit-content;
 }
+
 
 
 
