@@ -99,7 +99,7 @@ h1 {
 	display: flex;
 	justify-content: center; 
 }
-.toto{
+.yoyo{
 	 display: inline-block;      
   background-color: #B22222;  
   color: white;               
@@ -108,11 +108,12 @@ h1 {
   border-radius: 5px;         
   transition: 0.4s;
 }
-#toto nav: hover{
+#yoyo nav: hover{
 background-color:#8B0000;
 }
 	
 	
+
 
 
 
