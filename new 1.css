@@ -95,6 +95,11 @@ h1 {
 #skills{
 	flex:0 0 240px;
 }
+.toto{
+	display: flex;
+	justify-content: center; 
+}
+	
 
 
 
