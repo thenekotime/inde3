@@ -1,114 +1,97 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-<link rel="stylesheet" href="new 1.css">
-<meta charset="UTF-8">
-<title>Обо мне — Danbi</title>
+  <meta charset="UTF-8">
+  <title>Обо мне — Danbi</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
 </head>
 <body>
+
 <header id="main-header">
-<h1><strong>Welcome</strong></h1>
- <br>
-<nav>
- <a href="#about">About me</a> |
- <a href="#skills">my skills</a> |
- <a href="#contact">contact me!</a> |
-<a href="projects.html">projects</a>
-</nav>
+  <h1><strong>Welcome</strong></h1>
+  <nav>
+    <a href="#about">About me</a>
+    <a href="#skills">My skills</a>
+    <a href="#contact">Contact</a>
+    <a href="projects.html">Projects</a>
+  </nav>
 </header>
-<hr>
+
 <main>
-<section class="about-skills">
-<section id="about">
-<article class= "smth">
-<h2>About me</h2>
-<p><i>Привет, меня зовут Дана. В свободное время люблю порисовать, почитать книги и гулять под музыку.</i></p>
-<p><i>Сейчас потихоньку осваиваю навыки кодирования  стараюсь на лучшее</i></p>
-<p><i>Люблю дождливую погоду, оно более успокаивающее. А вы?</i></p>
-<br>
-<ul>
-<li>Достаточно творческий человек который любит генерировать новые идей и возможно от части воплощать их в реальность.</li>
-<li>Нравится в свободное время рисовать пока слушаю подкаст или любимую музыку.</li>
-<li>Люблю фотографировать что то необычно красивое.</li>
-</ul>
-<br>
-<p><em>Моя цель — превратить хобби в профессию.</em></p>
-</article>
-</section>
-<hr>
-<section id="skills">
-<h2>my skills</h2>
-<div class="lolol">
-<table border="2">
-<thead>
-<tr>
-<th>Навык</th>
-<th>Уровень</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Рисование</td>
-<td>Средний</td>
-</tr>
-<tr>
-<td>программирование HTML</td>
-<td>Начальный</td>
-</tr>
-<tr>
-<td>Креативное мышление</td>
-<td>Удовлетворенный</td>
-</tr>
-</tbody>
-</table>
-</div>
-</section>
- </section>
-<hr>
-<section>
-<h2>projects</h2>
-<div class="project-card">
-Мое творчесвто как правило является тем, о чем я вдохновилась в то время. Оно может и не иметь особо глубокого смысла со стороны, однако для одного человека оно довольно значимое и ценное время. Ссылкой ниже можно полюбоваться моими некоторыми проектами!
-</div>
-</section>
-<p><a href="projects.html#projects">К проектам →</a></p>
-<hr>
-<section id="contact">
-<h2>Contact me right now by click!</h2>
- <div class="toto">
-<form>
-<p>
-Имя:<br>
-<input type="text" name="name">
-</p>
-<p>
-Email:<br>
-<input type="email" name="email">
-</p>
+  <section class="intro">
+    <img src="portrait.jpg" alt="Danbi portrait" class="profile-photo">
+    <div class="intro-text">
+      <h2>Danbi</h2>
+      <p>Человек, который любит дождь, искусство и красоту в простом. Создаю — потому что не могу иначе.</p>
+    </div>
+  </section>
 
-<p>
-Сообщение:<br>
-<textarea name="message"></textarea>
-</p>
+  <section id="about" class="smth">
+    <h2>About Me</h2>
+    <p><i>Привет, меня зовут Дана. В свободное время люблю рисовать, читать и гулять под музыку.</i></p>
+    <ul>
+      <li>Творческий человек, обожаю воплощать идеи в реальность 🌷</li>
+      <li>Люблю фотографировать красивые детали и атмосферные моменты 📸</li>
+      <li>Хочу превратить хобби в профессию ✨</li>
+    </ul>
+  </section>
 
-<p>
-<input type="checkbox" name="agree"> Я согласен(а) на обработку данных
-</p>
-<div class="yoyo">
-<input type="submit" value="Отправить">
- </div>
- <div class="yoyo">
-<button> очистить </button>
-</div>
-</form>
-</section>
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-table">
+      <table>
+        <thead>
+          <tr>
+            <th>Навык</th>
+            <th>Уровень</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Рисование</td><td>Средний</td></tr>
+          <tr><td>HTML</td><td>Начальный</td></tr>
+          <tr><td>Креативное мышление</td><td>Хороший</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>Посмотрите мои визуальные истории — они расскажут больше, чем слова.</p>
+    <a href="projects.html" class="button">К проектам →</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label>Имя</label>
+      <input type="text" name="name" required>
+
+      <label>Email</label>
+      <input type="email" name="email" required>
+
+      <label>Сообщение</label>
+      <textarea name="message" rows="4"></textarea>
+
+      <label><input type="checkbox" required> Согласен на обработку данных</label>
+
+      <div class="form-buttons">
+        <button type="submit">Отправить</button>
+        <button type="reset">Очистить</button>
+      </div>
+    </form>
+  </section>
 </main>
+
 <footer>
-<p>© 2025 thenekotime</p>
+  <p>© 2025 thenekotime</p>
 </footer>
- </div>
+
 </body>
 </html>
+
+
 
 
 
