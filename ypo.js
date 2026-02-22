@@ -3,6 +3,9 @@
   const counter = document.getElementById('counter');
   const lightbox = document.getElementById('lightbox');
   const lightboxImg = document.getElementById('lightboxImg');
+  lightboxImg.classList.remove('zoomed');
+  void lightboxImg.offsetWidth; // триггер рендеринга
+  lightboxImg.classList.add('zoomed');
   const lightboxClose = document.getElementById('lightboxClose');
 
   // Cards order array (indices 0..n-1, front = index 0)
