@@ -8,13 +8,11 @@
   lightboxImg.classList.add('zoomed');
   const lightboxClose = document.getElementById('lightboxClose');
 
-  // Cards order array (indices 0..n-1, front = index 0)
   let cards = Array.from(stack.querySelectorAll('.card'));
   const total = cards.length;
 
   function applyStackStyles() {
     cards.forEach((card, i) => {
-      // Reset
       card.style.zIndex = '';
       card.style.transform = '';
       card.style.opacity = '';
